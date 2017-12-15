@@ -2,10 +2,10 @@ public class Funcionario {
     private String nome;
     private String departamento;
     private double salario;
-    private String entradaNoBanco;
+    private Data entradaNoBanco;
     private String rg;
 
-    public Funcionario(String nome, String departamento, double salario, String entradaNoBanco, String rg){
+    public Funcionario(String nome, String departamento, double salario, Data entradaNoBanco, String rg){
         this.nome = nome;
         this.departamento = departamento;
         this.salario = salario;
@@ -25,7 +25,7 @@ public class Funcionario {
         System.out.println("nome: " + this.nome +"\n" +
                            "departamento: " + this.departamento + "\n" +
                            "salario: " + this.salario + "\n" +
-                           "entrada no banco: " + this.entradaNoBanco + "\n" +
+                           "entrada no banco: " + this.entradaNoBanco.getData() + "\n" +
                            "RG: " + this.rg + "\n");
     }
 
@@ -39,10 +39,6 @@ public class Funcionario {
 
     public void setDepartamento(String novoDepartamento){
         this.departamento = novoDepartamento;
-    }
-
-    public String getEntradaNoBanco() {
-        return entradaNoBanco;
     }
 
     public String getRg() {
