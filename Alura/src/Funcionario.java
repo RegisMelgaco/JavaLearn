@@ -13,6 +13,10 @@ public class Funcionario {
         this.rg = rg;
     }
 
+    public Funcionario() {
+
+    }
+
     public void recebeAumento(double aumento){
         this.salario += aumento;
     }
@@ -47,5 +51,21 @@ public class Funcionario {
 
     public double getSalario() {
         return salario;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    public void setEntradaNoBanco(Data entradaNoBanco) {
+        this.entradaNoBanco = entradaNoBanco;
+    }
+
+    public void setRg(String rg) {
+        this.rg = rg;
     }
 }
