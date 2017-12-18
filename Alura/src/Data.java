@@ -14,26 +14,26 @@ public class Data {
     }
 
     public void setDia(int dia) {
-        if(this.mes % 2 == 1){
-            if(dia <= 31 && dia >= 1){
-                this.dia = dia;
-            }
-            else {
-                System.out.printf("Entre com um dia válido");
-            }
-        }
-        else {
-            if (this.mes == 2) {
-                if (dia <= 29 && dia >= 1) {
+        if(this.mes == 0) {
+            if (this.mes % 2 == 1) {
+                if (dia <= 31 && dia >= 1) {
                     this.dia = dia;
                 } else {
                     System.out.printf("Entre com um dia válido");
                 }
             } else {
-                if (dia <= 30 && dia >= 1) {
-                    this.dia = dia;
+                if (this.mes == 2) {
+                    if (dia <= 29 && dia >= 1) {
+                        this.dia = dia;
+                    } else {
+                        System.out.printf("Entre com um dia válido");
+                    }
                 } else {
-                    System.out.printf("Entre com um dia válido");
+                    if (dia <= 30 && dia >= 1) {
+                        this.dia = dia;
+                    } else {
+                        System.out.printf("Entre com um dia válido");
+                    }
                 }
             }
         }
