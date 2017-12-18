@@ -4,6 +4,8 @@ public class Funcionario {
     private double salario;
     private Data entradaNoBanco;
     private String rg;
+    private static int incremental = 1;
+    private int identificador;
 
     public Funcionario(String nome, String departamento, double salario, Data entradaNoBanco, String rg){
         this.nome = nome;
@@ -11,10 +13,16 @@ public class Funcionario {
         this.salario = salario;
         this.entradaNoBanco = entradaNoBanco;
         this.rg = rg;
+        this.identificação();
     }
 
     public Funcionario() {
 
+    }
+
+    private void identificação(){
+        this.identificador = incremental;
+        incremental++;
     }
 
     public void recebeAumento(double aumento){
@@ -67,5 +75,9 @@ public class Funcionario {
 
     public void setRg(String rg) {
         this.rg = rg;
+    }
+
+    public int getIdentificador() {
+        return this.identificador;
     }
 }
