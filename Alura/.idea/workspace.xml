@@ -15,39 +15,29 @@
       <content type="file-editors">
         <state>
           <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="Funcionario.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/Funcionario.java">
+            <file leaf-file-name="Data.java" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/Data.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="73">
-                    <caret line="27" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+                  <state relative-caret-position="252">
+                    <caret line="14" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                     <folding>
-                      <element signature="e#496#497#0" expanded="true" />
-                      <element signature="e#535#536#0" expanded="true" />
-                      <element signature="e#575#576#0" expanded="true" />
-                      <element signature="e#613#614#0" expanded="true" />
-                      <element signature="e#1010#1011#0" expanded="true" />
-                      <element signature="e#1042#1043#0" expanded="true" />
-                      <element signature="e#1081#1082#0" expanded="true" />
-                      <element signature="e#1116#1117#0" expanded="true" />
-                      <element signature="e#1175#1176#0" expanded="true" />
-                      <element signature="e#1227#1228#0" expanded="true" />
-                      <element signature="e#1256#1257#0" expanded="true" />
-                      <element signature="e#1281#1282#0" expanded="true" />
-                      <element signature="e#1315#1316#0" expanded="true" />
-                      <element signature="e#1345#1346#0" expanded="true" />
+                      <element signature="e#235#236#0" expanded="true" />
+                      <element signature="e#301#302#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="Data.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/Data.java">
+            <file leaf-file-name="Empresa.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/Empresa.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="252">
-                    <caret line="14" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                  <state relative-caret-position="294">
+                    <caret line="40" column="60" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
                     <folding>
-                      <element signature="e#235#236#0" expanded="true" />
-                      <element signature="e#301#302#0" expanded="true" />
+                      <element signature="e#1881#1882#0" expanded="true" />
+                      <element signature="e#1908#1909#0" expanded="true" />
+                      <element signature="e#1939#1940#0" expanded="true" />
+                      <element signature="e#1966#1967#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -63,9 +53,34 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="180">
+              <caret line="10" column="70" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Funcionario.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Funcionario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="103" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="103" />
+              <folding>
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
+                <element signature="e#1042#1043#0" expanded="true" />
+                <element signature="e#1081#1082#0" expanded="true" />
+                <element signature="e#1116#1117#0" expanded="true" />
+                <element signature="e#1175#1176#0" expanded="true" />
+                <element signature="e#1227#1228#0" expanded="true" />
+                <element signature="e#1256#1257#0" expanded="true" />
+                <element signature="e#1281#1282#0" expanded="true" />
+                <element signature="e#1315#1316#0" expanded="true" />
+                <element signature="e#1345#1346#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,6 +104,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/Data.java" />
         <option value="$PROJECT_DIR$/src/Funcionario.java" />
+        <option value="$PROJECT_DIR$/src/Empresa.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -120,6 +136,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,10 +153,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,12 +295,13 @@
       <updated>1513333308162</updated>
       <workItem from="1513333314966" duration="163000" />
       <workItem from="1513333502757" duration="7956000" />
-      <workItem from="1513357670003" duration="1899000" />
+      <workItem from="1513357670003" duration="4257000" />
+      <workItem from="1513593104539" duration="2336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10018000" />
+    <option name="totallyTimeSpent" value="14712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-2" width="1280" height="962" extended-state="6" />
@@ -298,7 +315,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -332,6 +349,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -372,10 +397,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Alura.java" />
+    <entry file="file://$PROJECT_DIR$/src/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Funcionario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="7" column="103" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="103" />
           <folding>
             <element signature="e#496#497#0" expanded="true" />
             <element signature="e#535#536#0" expanded="true" />
@@ -395,22 +431,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="10" column="70" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Empresa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="294">
+          <caret line="40" column="60" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="e#1881#1882#0" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
+            <element signature="e#1939#1940#0" expanded="true" />
+            <element signature="e#1966#1967#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
