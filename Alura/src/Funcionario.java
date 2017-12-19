@@ -16,8 +16,10 @@ public class Funcionario {
         this.identificação();
     }
 
-    public Funcionario() {
-
+    public void funcaoDeDivi() throws DivisaoPorZero {
+        if(dividendo == 0) {
+            throw new DivisaoPorZero();
+        }
     }
 
     private void identificação(){
