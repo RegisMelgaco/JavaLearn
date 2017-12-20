@@ -14,8 +14,12 @@ public abstract class Conta {
         }
     }
 
-    public void deposita(double valor) {
-        this.saldo += valor;
+    public void deposita(double valor) throws IllegalArgumentException {
+        if(valor > 0) {
+            this.saldo += valor;
+        } else {
+            throw new ValorInvalidoException(valor);
+        }
     }
 
     public abstract void atualiza(double taxa);
