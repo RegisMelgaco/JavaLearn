@@ -1,3 +1,5 @@
+package br.com.alura.java2.modelos;
+
 import br.com.alura.java2.exception.ValorInvalidoException;
 
 public abstract class Conta {
