@@ -1,3 +1,7 @@
+package br.com.empresa.banco.Sistemas;
+
+import br.com.empresa.banco.Tributos.Tributavel;
+
 public class GerenciadorDeImpostosDeRenda {
     private double total = 0;
 

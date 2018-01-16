@@ -1,4 +1,4 @@
-package br.com.alura.java2.modelos;
+package br.com.empresa.banco.Conta;
 
 public class ContaPoupanca extends Conta {
 

@@ -1,6 +1,6 @@
-package br.com.alura.java2.sistema;
+package br.com.empresa.banco.Sistemas;
 
-import br.com.alura.java2.modelos.Conta;
+import br.com.empresa.banco.Conta.Conta;
 
 public class AtualizadorDeContas {
 

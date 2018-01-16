@@ -1,6 +1,5 @@
-package br.com.alura.java2.exception;
+package br.com.empresa.banco.Erros;
 
-@SuppressWarnings("serial")
 public class ValorInvalidoException extends RuntimeException{
 
 	public ValorInvalidoException(double valor) {

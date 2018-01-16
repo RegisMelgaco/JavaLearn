@@ -1,4 +1,6 @@
-import br.com.alura.java2.exception.ValorInvalidoException;
+package br.com.empresa.banco.Conta;
+
+import br.com.empresa.banco.Erros.ValorInvalidoException;
 
 public abstract class Conta {
 
