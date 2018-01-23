@@ -2,10 +2,26 @@ package br.com.empresa.banco.Main;
 
 import br.com.empresa.banco.Conta.Conta;
 import br.com.empresa.banco.Conta.ContaCorrente;
-import br.com.empresa.banco.NadaHaver.NadaHaver1;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(NadaHaver1.nadeMelhorPraFazer2("12345"));
+        System.out.println("Iniciando...");
+        long inicio = System.currentTimeMillis();
+
+        // trocar depois por ArrayList
+        List<Integer> teste = new ArrayList<>();
+
+        for (int i = 0; i < 30000; i++) {
+            teste.add(0, i);
+        }
+
+        long fim = System.currentTimeMillis();
+        double tempo = (fim - inicio) / 1000.0;
+        System.out.println("Tempo gasto: " + tempo);
     }
 }

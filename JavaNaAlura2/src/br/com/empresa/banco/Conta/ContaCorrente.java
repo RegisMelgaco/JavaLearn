@@ -2,10 +2,10 @@ package br.com.empresa.banco.Conta;
 
 import br.com.empresa.banco.Tributos.Tributavel;
 
-public class ContaCorrente extends Conta implements Tributavel {
+public class ContaCorrente extends Conta implements Tributavel, Comparable<Conta> {
 
-    public ContaCorrente (double saldo, String nome) {
-        super(saldo,nome);
+    public ContaCorrente (double saldo, String nome, int numero) {
+        super(saldo, nome, numero);
     }
 
 	public void atualiza(double taxa) {
@@ -16,4 +16,9 @@ public class ContaCorrente extends Conta implements Tributavel {
 	public double calculaTributos() {
 		return this.getSaldo() * 0.01;
 	}
+
+    @Override
+    public int compareTo(Conta o) {
+        return this.nome.compareTo(o.nome);
+    }
 }
