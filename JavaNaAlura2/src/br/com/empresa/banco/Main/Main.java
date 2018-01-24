@@ -1,27 +1,22 @@
 package br.com.empresa.banco.Main;
 
-import br.com.empresa.banco.Conta.Conta;
-import br.com.empresa.banco.Conta.ContaCorrente;
+import br.com.empresa.banco.NadaHaver.Programa;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Iniciando...");
-        long inicio = System.currentTimeMillis();
 
-        // trocar depois por ArrayList
-        List<Integer> teste = new ArrayList<>();
+        Programa p1 = new Programa();
+        p1.setId(1);
 
-        for (int i = 0; i < 30000; i++) {
-            teste.add(0, i);
-        }
+        Thread t1 = new Thread(p1);
+        t1.start();
 
-        long fim = System.currentTimeMillis();
-        double tempo = (fim - inicio) / 1000.0;
-        System.out.println("Tempo gasto: " + tempo);
+        Programa p2 = new Programa();
+        p2.setId(2);
+
+        Thread t2 = new Thread(p2);
+        t2.start();
+
     }
 }
